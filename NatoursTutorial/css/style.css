@@ -165,6 +165,11 @@ body {
   .section-features > * {
     transform: skewY(7deg); }
 
+.section-tours {
+  background-color: #f7f7f7;
+  padding: 25rem 0 50rem 0;
+  margin-top: -10rem; }
+
 .composition {
   position: relative; }
   .composition__photo {
@@ -270,3 +275,10 @@ body {
     transform: translateY(-1.5rem) scale(1.03); }
   .feature-box__text {
     line-height: 2.6rem; }
+
+.card {
+  background-color: orangered;
+  height: 50rem;
+  transition: all .5s; }
+  .card:hover {
+    transform: rotateY(180deg); }

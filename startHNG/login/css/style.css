@@ -1,0 +1,130 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  height: 100vh;
+  color: #777;
+}
+
+h1{
+  color: #ffffff;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.section-main{
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-bg {
+  background-image:linear-gradient(to right bottom, #069c06c2, #0000ffb2), url("../images/bg.png");
+  background-size:cover;
+  background-position: center;
+  width: 65%;
+  height: 100vh;
+  float: left;
+  padding: 20px;
+}
+
+.form-bg {
+  background-color: #fff; 
+  width: 25%;
+  height: 100vh;
+  float: right;
+}
+
+.small-text{
+  color: #097241;
+  margin-top: 5%;
+  margin-left: -25%;
+}
+
+.form-welcome{
+  margin-top: 35%;
+  margin-left: -25%;
+  text-align: left;
+  font-size: 4rem;
+  font-weight: 400
+}
+
+input{
+  border: none;
+  border-bottom: 1.5px solid #777;
+  width: 110%;
+  margin-left: -25%;
+  margin-top: 3.7rem;
+  font-size:2.5rem;
+
+}
+
+.btn-submit{
+  background-color:#097241;
+  text-align: center;
+  color: #fff;
+  border: none;
+  height: 4.5rem;
+  width: 110%;
+  margin-left: -25%;
+  margin-top: 3.2rem;
+  font-size:2.5rem;
+  border-radius: .2rem;
+}
+
+.password-forget{
+  color: #353535;
+  margin-top: 5%;
+  margin-left: 7%
+}
+
+.create-account{
+  margin-top: 43%;
+  color: #353535;
+  margin-left: -15%
+}
+
+.btn-start{
+  border: 2px solid #353535;
+  background-color: #fff;
+  color: #353535;
+  height: 4rem;
+  border-radius: .2rem;
+  width: 30%;
+  font-weight: 700;
+}
+
+a{
+  text-decoration-style: non;
+  color: #353535;
+  text-decoration: none;
+}
+
+
+/*======================================
+              SIGN UP PAGE
+=======================================*/
+.create-account-signup{
+  margin-top: 40%;
+  color: #353535;
+  margin-left: -15%
+}
+
+.signup-page{
+  border: none;
+  border-bottom: 1.5px solid #777;
+  width: 110%;
+  margin-left: -25%;
+  margin-top: 2.7rem;
+  font-size:2rem;
+
+}
