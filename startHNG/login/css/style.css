@@ -128,3 +128,34 @@ a{
   font-size:2rem;
 
 }
+
+.btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 1s;
+  position: relative;
+  animation: moveInBottom 3s ease-out; 
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.btn:active {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; 
+}
