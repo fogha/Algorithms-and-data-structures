@@ -1,4 +1,13 @@
-
+/**
+ * returns either Yes if for every opening bracket, or brace in an 
+ * array there is a closing brace or bracket. Else it will return No
+ * eg ['{','(','}'] => No
+ *    ['[','{','(',')','}',']'] => Yes
+ * 
+ * 
+ * @param {[]} arr Input array
+ *
+ */
 function brackets(arr) {
   let count = 0;
   let count1 = 0;
@@ -20,7 +29,7 @@ function brackets(arr) {
   }
 }
 
-
+//Test cases 
 console.log(brackets(['{','(','}']));
 console.log(brackets(['[','{','(',')','}',']']));
 console.log(brackets(['[','{','{','(','(',')','}','}',']']));
