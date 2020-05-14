@@ -26,10 +26,12 @@ function isAnagramMap(str1, str2) {
   var map = new Map();
   for (let i = 0; i < str1.length; i++) {
     let val1 = map.get(str1[i]);
+    console.log(str1[i]);
     if (!val1) {
       map.set(str1[i], 1);
     } else {
       map.set(str1[i], val1 + 1);
+      console.log(val1, val1+1);
     }
 
     let val2 = map.get(str2[i]);
