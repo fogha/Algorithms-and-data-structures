@@ -4,6 +4,24 @@ export const forEach = (array, fn) => {
     fn(array[i]);
 }
 
+//example of a projecting function
+export const map = (array, fn) => {
+  let results = [];
+  for(const value of array) 
+    results.push(fn(value));
+  return results;
+}
+
+export const filter = (array, fn) => {
+  let results = [];
+
+  for(const value of array)  
+    if(condition) 
+      results.push(fn(value))
+
+  return results;
+}
+
 export const unless = (condition, fn) => {
   if(condition) 
     fn()
@@ -39,4 +57,24 @@ export const sortBy = (props) => {
     var result = (a.props < b.props) ? -1 : (a.props > b.props ) ? 1 : 0;
     return result;
   }
+}
+
+export const unary = (fn) => {
+  fn.length === 1 
+    ? fn 
+    :(arg) => fn(arg);
+}
+
+export const once = (fn) => {
+  let done = false;
+
+  return function() {
+    return done ? undefined : ((done = true), fn.apply(this, arguments))
+  }
+}
+
+export const memorize = (fn) => {
+  const lookUpTable = {};
+
+  return (arg) => lookUpTable[arg] || (lookUpTable[arg] = fn(arg))
 }
