@@ -17,4 +17,4 @@ function maxBuy(arr, k) {
 
 console.log(maxBuy([1,2,3,4,5], 15));
 console.log(maxBuy([7,2,1,3], 7));
-console.log(maxBuy([7,5,2,4,1,3], 10));
+console.log(maxBuy([7,5,2,2,4,1,3], 10));

@@ -78,3 +78,19 @@ export const memorize = (fn) => {
 
   return (arg) => lookUpTable[arg] || (lookUpTable[arg] = fn(arg))
 }
+
+export const addReducer = (array, fn) => {
+  let accumulator = 0;
+  for(const value of array) 
+    accumulator = fn(accumulator, value);
+
+  return [accumulator]
+}
+
+// export const multiplyReducer = (array, fn) => { 
+//   let accumulator;
+//   if(array[0]) 
+//     accumulator = array[0]
+//   else 
+
+// }
