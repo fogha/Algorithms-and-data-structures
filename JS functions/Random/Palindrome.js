@@ -1,7 +1,8 @@
 
 
 
-const palindrome = (str) => {
+const palindrome = (strn) => {
+  let str = strn.toLowerCase();
   let first, midChar, end;
   let mid = Math.round(str.length/2)
 
@@ -23,3 +24,4 @@ const palindrome = (str) => {
 
 console.log(palindrome('level'));
 console.log(palindrome('racecar'));
+console.log(palindrome('Aba'));
