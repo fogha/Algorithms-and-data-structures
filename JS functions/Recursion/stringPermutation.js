@@ -13,9 +13,7 @@ const findPermutations = (string) => {
 
     for(let i=0; i<string.length; i++) {
         let mainChar = string[i];
-        //console.log(`the is i ${mainChar}`);
         let remainingChars = string.slice(0, i) + string.slice(i+1, string.length);
-        //console.log(`this are the others ${remainingChars}`);
         for(let permutation of findPermutations(remainingChars)) {
             permutationsArray.push(mainChar + permutation)
             console.log(mainChar);
