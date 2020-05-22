@@ -7,6 +7,8 @@ const stairCase = (n) => {
   }
 }
 
-stairCase(3)
+stairCase(3);
+// console.log('starte')
+// console.log('#')
 stairCase(4)
-stairCase(6)
+//stairCase(6)

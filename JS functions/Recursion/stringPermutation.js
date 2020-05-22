@@ -18,12 +18,8 @@ const findPermutations = (string) => {
             permutationsArray.push(mainChar + permutation)
             console.log(mainChar);
             console.log(permutation);
-            // console.log(permutationsArray.length);
-            // console.log(permutationsArray);
-
         }
     }
-    //console.log(permutationsArray)
     return permutationsArray;
 }
 
