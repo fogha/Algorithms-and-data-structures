@@ -1,0 +1,67 @@
+{   
+    "users": {
+        "1": {
+
+        "name" : "Henry",
+
+        "age" : 36
+
+        },
+
+        "2": {
+
+        "name" : "Leon",
+
+        "age" : 22
+
+        },
+
+        "3": {
+
+        "name" : "Gustav",
+
+        "age" : 38
+
+        },
+
+        "4": {
+
+        "name" : "Leokadie",
+
+        "age" : 24
+
+        },
+
+        "5": {
+
+        "name" : "Talom",
+
+        "age" : 25
+
+        },
+
+        "6": {
+
+        "name" : "Vieux",
+
+        "age" : 31
+
+        },
+
+        "7": {
+
+        "name" : "Serge",
+
+        "age" : 31
+
+        },
+
+        "8": {
+
+        "name" : "Lopaie",
+
+        "age" : 29
+
+        }
+     }
+}
