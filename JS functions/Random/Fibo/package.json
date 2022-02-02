@@ -1,0 +1,15 @@
+{
+  "name": "fibo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fibo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodeplotlib": "^1.0.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
