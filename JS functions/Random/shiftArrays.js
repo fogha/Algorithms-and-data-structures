@@ -73,4 +73,4 @@ console.log(duplicateZeros([1,0,2,3,0,4,5,0]));
 // Acha Bill18:59
 // i.e A linear solution. Not necessarily af function of n
 // O(n)
-O(n+m) // let m be a scalar 
+// O(n+m) // let m be a scalar 
