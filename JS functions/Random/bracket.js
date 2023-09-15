@@ -18,10 +18,10 @@ function Brackets(str) {
     if(opening.includes(str[i])) {
       stack.push(str[i]);
     } else {
-        let last = stack[stack.length - 1];
-        let index = closing.indexOf(str[i]);
-        let test = opening[index];
-        if(test == last) {
+      let lastBracket = stack[stack.length - 1];
+      let closingBracketIndex = closing.indexOf(str[i]);
+      let test = opening[closingBracketIndex];
+      if (test == lastBracket) {
           stack.pop();
         } else {
           return false
@@ -32,5 +32,8 @@ function Brackets(str) {
     return stack.length == 0;
 }
 
-console.log(Brackets('{([])}'))
+// console.log(Brackets('{([])}'));
+// console.log(Brackets('{([])}'))
+console.log(Brackets('{([{])}'))
+
 
